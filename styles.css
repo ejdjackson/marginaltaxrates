@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    background-color: #f5f5f5; /* Light grey background for a clean look */
+    font-family: 'Montserrat', sans-serif; /* Modern, clean font */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #007BFF; /* Complementary blue color */
+    color: #ffffff; /* White text for contrast */
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9; /* Very light grey for alternate rows */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ffffff; /* White for contrast */
+}
+
+tbody tr:hover {
+    background-color: #007BFF; /* Highlight row on hover */
+    color: #ffffff; /* Invert text color on hover */
+}
+
+canvas {
+    display: block;
+    margin: 0 auto 30px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    table, th, td {
+        font-size: 0.9em;
+    }
+}

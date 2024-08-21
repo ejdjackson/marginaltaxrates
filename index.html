@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Table with Graph</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <canvas id="taxChart" width="800" height="400"></canvas>
+
+        <h1></h1>
+        <table id="taxTable">
+            <thead>
+                <tr>
+                    <th>Gross Income (£)</th>
+                    <th>Income Tax (£)</th>
+                    <th>National Insurance (£)</th>
+                    <th>Overall Tax Rate (%)</th>
+                    <th>Marginal Tax Rate (%)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Rows will be inserted here by JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
